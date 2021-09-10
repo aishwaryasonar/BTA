@@ -8,7 +8,7 @@ View this website in action [here](https://aishwaryasonar.me/BTA/)
 
 ## 📌 Preview
 
-### Desktop Preview
+### 💻 Desktop Preview
 
 ![img1](https://github.com/aishwaryasonar/BTA/blob/main/images/img1.png?raw=true)
 
@@ -16,13 +16,13 @@ View this website in action [here](https://aishwaryasonar.me/BTA/)
 
 ![img3](https://github.com/aishwaryasonar/BTA/blob/main/images/img3.png?raw=true)
 
-### Mobile Preview
+### 📱 Mobile Preview
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
+    <td>Screenshot 1</td>
+     <td>Screenshot 2</td>
+     <td>Screenshot 3</td>
   </tr>
   <tr>
     <td><img src="https://github.com/aishwaryasonar/BTA/blob/main/images/img4.jpg?raw=true" width=270 height=480></td>
