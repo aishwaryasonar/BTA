@@ -1,0 +1,132 @@
+* {
+  font-family: "Lora", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
+}
+
+nav {
+  opacity: 0.8;
+}
+
+.nav-link {
+  padding: 0 0;
+}
+
+.showcasebg {
+  background: #a921f2;
+  background: -webkit-linear-gradient(right, #8c21c5, #512e96);
+  background: -moz-linear-gradient(right, #8e18ce, #6b47b4);
+  background: linear-gradient(to left, #9b1edf, #7454b4);
+
+  /* background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #7139e0, #8e2de2);
+  background: linear-gradient(to right, #6f39dd, #8e2de2); */
+}
+
+.trialbg {
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.instructorbg {
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6d046b,
+    #aa076b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #790577,
+    #aa076b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.logo {
+  width: 45px;
+}
+
+/*Trial animation*/
+
+.blink-2 {
+  -webkit-animation: blink-2 1.5s infinite both;
+  animation: blink-2 1.5s infinite both;
+}
+
+@-webkit-keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* navbar animation */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #e1f018;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #e5e91a;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
