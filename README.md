@@ -6,6 +6,33 @@ This is a static website built on Bootstrap 5 for an Educational Institute. It d
 ## ⚡ Demo
 View this website in action [here](https://aishwaryasonar.me/BTA/)
 
+## 📌 Preview
+
+### Desktop Preview
+
+![img1](https://github.com/aishwaryasonar/BTA/blob/main/images/img1.png?raw=true)
+
+![img2](https://github.com/aishwaryasonar/BTA/blob/main/images/img2.png?raw=true)
+
+![img3](https://github.com/aishwaryasonar/BTA/blob/main/images/img3.png?raw=true)
+
+### Mobile Preview
+
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/aishwaryasonar/BTA/blob/main/images/img4.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/aishwaryasonar/BTA/blob/main/images/img5.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/aishwaryasonar/BTA/blob/main/images/img6.jpg?raw=true" width=270 height=480></td>
+  </tr>
+ </table>
+
+
+
 
 ## 📚 Tech Stack
 
